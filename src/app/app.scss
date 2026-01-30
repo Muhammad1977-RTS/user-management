@@ -1,0 +1,20 @@
+/* Убираем стандартные отступы у body, чтобы не было лишних полей */
+:host {
+  display: block; // Компонент должен быть блочным для управления отступами
+  text-align: center; // Центрируем весь текст по умолчанию
+  padding-top: 2rem; // Добавляем отступ сверху
+}
+
+.main-title {
+  font-size: 2.5rem; // Увеличиваем размер шрифта
+  font-weight: bold;
+  color: #FFC0CB; // Светлый цвет для темного фона
+  margin-bottom: 2rem; // Добавляем отступ снизу, чтобы отодвинуть логотип Angular
+}
+
+/* Стили для остального контента, чтобы он был под заголовком */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
